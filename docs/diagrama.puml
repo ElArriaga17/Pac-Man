@@ -1,0 +1,36 @@
+class Persona{}
+class Jugador{}
+class Juego{}
+class Mapa{}
+class Personaje{}
+class Jugable{}
+class NoJugable{}
+class Pacman{}
+class Fantasma{}
+class Color{}
+class Amarillo{}
+class Naranja{}
+class Azul{}
+class Rojo{}
+class Rosa{}
+class Pastilla{}
+class SuperPastilla{}
+class Fruta{}
+class Cereza{}
+class Fresa{}
+class Manzana{}
+class Mandarina{}
+class Bonus{}
+class Puntuacion{}
+class Musica{}
+class Muro{}
+class Estado{}
+class Depredador{}
+class Presa{}
+class Tiempo{}
+
+Pacman o--Pastilla
+Pacman o--Fruta 
+Pacman o--SuperPastilla
+Pacman o--Fantasma
+Pacman --|> Jugable

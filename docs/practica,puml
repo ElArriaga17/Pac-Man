@@ -1,0 +1,20 @@
+@staruml diagrama
+
+class PatrullaEspiritual
+class TazoDorado{
+    - Bool flotando?
+    + Flotar()
+}
+class Anexo
+class Chiquilin
+
+class Foco
+class GranLider
+
+PatrullaEspiritual o-- TazoDorado
+GranLider "1" *-- "*" Foco
+TazoDorado "1" o-- "*" Foco
+TazoDorado *-- EstadoFlotacion
+EstadoFlotacion --|> Booleano
+
+@enduml
