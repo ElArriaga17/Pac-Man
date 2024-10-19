@@ -1,4 +1,4 @@
-@staruml diagrama
+@startuml diagrama
 
 class PatrullaEspiritual
 class TazoDorado{
