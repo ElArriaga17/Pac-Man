@@ -7,7 +7,11 @@ public:
         this->flotando = false;
     }
     ~TazoDorado() {}
-    void flotar(){
+    void Flotar(){
         this->flotando = true;
+    }
+
+    bool IsFloating(){
+        return this->flotando;
     }
 };
