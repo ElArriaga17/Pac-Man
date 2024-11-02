@@ -19,3 +19,9 @@ runAnimacion : bin/animacion
 
 bin/animacion : src/canvas_animated.cpp
 	g++ src/canvas_animated.cpp -Iinclude -o bin/animacion -std=c++2a -lftxui-dom -lftxui-screen -lftxui-component
+
+bin/prueba : src/prueba.cpp
+	g++ src/prueba.cpp -Iinclude -o bin/prueba -std=c++2a -lftxui-dom -lftxui-screen -lftxui-component
+
+runPrueba : bin/prueba
+	./bin/prueba
